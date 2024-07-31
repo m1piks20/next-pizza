@@ -5,10 +5,10 @@ interface Props {
   className?: string;
 }
 
-export const Container: React.FC<Props> = ({ className }) => {
+export const SortPopup: React.FC<Props> = ({ className }) => {
   return (
     <div className={cn('', className)}>
-        
+      
     </div>
   );
-};
+}
